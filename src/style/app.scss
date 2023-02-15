@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,100;1,300;1,500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.ant-table-content{
+    border-bottom: 1px solid black;
+}
+.ant-table-cell{
+    border: 1px solid black;
+}
+
+.DeleteBtn{
+    font-size: 1.2rem;
+    color: #f44336;
+    cursor: pointer;
+    transition:all 0.3s;
+    &:hover{
+        color: #d1382d;
+    }
+
+}
+.UpdateBtn{
+    font-size: 1.2rem;
+    color:  #405cf5;
+    cursor: pointer;
+    transition:all 0.3s;
+    &:hover{
+        color:  #3248c1;
+    }
+}
